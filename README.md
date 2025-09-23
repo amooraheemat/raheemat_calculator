@@ -5,27 +5,19 @@ A Node.js calculator application that demonstrates the use of local, third party
 - Usage of a **third-party module** (`chalk` for colorful output)
 - Creation of **custom modules** (`calculator.js` and `password.js`)
 
-Folder Structure
-raheemat-calculator/
-│── app.js # Main entry file
-│── package.json # Project config and dependencies
-│── .gitignore # Ignore node_modules
-│── myModule/
-│ ├── calculator.js # Calculator module (class-based)
-│ └── password.js # Password generator module
+
 
 **Clone this repo**  
    ```bash
    git clone https://github.com/amooraheemat/raheemat-calculator.git
    cd raheemat-calculator
-Install dependencies
 
-bash
+
 Copy code
 npm install
 Run the app
 
-bash
+
 Copy code
 node app.js
 🧮 Features
@@ -55,7 +47,7 @@ Example:
 
 js
 Copy code
-import { generatePassword } from "./my_module/password.js";
+import { generatePassword } from "./myModule/password.js";
 
 console.log(generatePassword(8)); // Example: "Ab3#kL9x"
 3. App (index.js)
