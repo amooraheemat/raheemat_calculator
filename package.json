@@ -1,0 +1,25 @@
+{
+  "name": "raheemat_calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [],
+  "author": "Amoo Raheemat",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amooraheemat/raheemat_calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amooraheemat/raheemat_calculator/issues"
+  },
+  "homepage": "https://github.com/amooraheemat/raheemat_calculator#readme",
+  "description": "A Node.js calculator application that demonstrates the use of local, third party, and custom modules.",
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
