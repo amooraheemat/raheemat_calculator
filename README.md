@@ -60,7 +60,7 @@ Generates a random password (in green)
 Runs calculator operations (addition, subtraction, multiplication, division) with results in different chalk colors
 
 🎨 Console Output Example
-yaml
+
 Copy code
 Registration Number: XYZ123456
 Current file basename: index.js
